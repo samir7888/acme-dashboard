@@ -5,7 +5,7 @@ import { SalesRevenueCard } from '../dashboard/SalesRevenueCard';
 import { SalesSegmentationCard } from '../dashboard/SalesSegmentationCard'
 import { motion } from 'framer-motion'
 import LeadsStatusCard from './LeadsStatusCard';
-import WebVisitsCard from './WebVisitsCard';
+import { WebVisitsCard } from '../dashboard/WebVisitsCard'
 export const Dashboard = () => {
     return (
         <div className="ml-64 flex-1 bg-white min-h-screen">
